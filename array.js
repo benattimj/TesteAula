@@ -15,12 +15,12 @@ carros[1] = "Fiat"
 
 console.log(carros);
 
-var motos = new Array("Bmw", "Yamaha");
-console.log("Tudo: " + motos + "A escolhida: " + motos[1]);
+var motos = new Array("Bmw " , "Yamaha");
+console.log("Tudo: " + motos + "  A escolhida: " + motos[1]);
 
 
 var soma = 0;
-for (var pos = 0; pos < valores.length; pos++){
+for (var pos = 0; pos <  valores.length; pos++){
  soma += valores[pos];
 
 }
