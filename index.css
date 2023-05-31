@@ -1,0 +1,10 @@
+.banner {
+    height: 315px;
+}
+
+.text-muted {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #999;
+    /* Outros estilos e efeitos aqui */
+  }
