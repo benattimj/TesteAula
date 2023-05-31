@@ -8,3 +8,13 @@
     color: #999;
     /* Outros estilos e efeitos aqui */
   }
+
+
+  @media (max-width: 768px) {
+    /* Estilos para telas menores que 768px (como smartphones) */
+    .navbar {
+      width: 100%; /* Ou qualquer outra alteração necessária */
+    }
+  }
+
+ 
