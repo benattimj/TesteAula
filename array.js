@@ -29,3 +29,14 @@ for (var pos = 0; pos <  valores.length; pos++){
 var media = soma/valores.length;
 
 console.log(media);
+
+// splice, remover e inserir novo valor na array
+var nomes = ["MAria", "Joao", "Lucas", "Pedro"];
+var novos = nomes.splice(1,2,"Luiz","Ronaldo");
+console.log(nomes);
+
+
+//slice extrai o valor do elemento
+var pessoa = ["Eduardo", "Joana", "Wallace", "Roasas"];
+var pessoas1 = nomes.slice(1,3);
+console.log(pessoas1);
