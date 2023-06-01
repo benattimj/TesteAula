@@ -320,7 +320,7 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-primary"
+                                            <button id="submitBtn" type="submit" class="btn btn-primary"
                                                 data-bs-dismiss="modal">Submit</button>
                                         </div>
 
@@ -444,6 +444,11 @@
         param2: 'show messag 2'
     });
 
+</script>
+<script>
+    document.getElementById("submitBtn").addEventListener("click", function() {
+        window.location.href = "about:blank"; // Redireciona para uma página em branco
+    });
 </script>
 
 </html>
