@@ -34,4 +34,4 @@ var estoque = [
     return acumulador + valorProduto;
  }, 0);
  
- console.log("O valor total do estoque é: R$", valorTotalEstoque.toFixed(2));
+ console.log("O valor total do estoque é: R$", valorTotalEstoque. toFixed(2));
