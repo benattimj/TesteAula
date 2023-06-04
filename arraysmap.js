@@ -1,3 +1,7 @@
+
+
+
+
 // Resumindo ao inves de usar o for usar o map
 
 var numeros = [1,2,3,4,5,6,7,8,9,10];
@@ -25,7 +29,7 @@ console.log(nomes);
 var estoque = [
     { nome: "Camiseta", preco: 29.90, quantidade: 10 },
     { nome: "Calça", preco: 79.90, quantidade: 5 },
-    { nome: "Tênis", preco: 149.90, quantidade: 3 },
+    { nome: "Tênis", preco: 149.90, quantidade: 300 },
     // ... outros produtos ...
  ];
  
@@ -35,3 +39,6 @@ var estoque = [
  }, 0);
  
  console.log("O valor total do estoque é: R$", valorTotalEstoque. toFixed(2));
+
+
+
