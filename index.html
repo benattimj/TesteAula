@@ -133,27 +133,7 @@
 
 <body>
 
-     <!-- Ícone de suporte -->
-     <div class="support-icon" onclick="toggleChat()"></div>
-
-     <!-- Chat box -->
-     <div class="chat-box" id="chatBox">
-        <div id="loginForm">
-            <h3 text-lign>Acesso ao Suporte</h3>
-            <div class="login-form">
-                <input type="text" id="username" placeholder="Usuário">
-                <input type="password" id="password" placeholder="Senha">
-                <button onclick="login()">Acessar</button>
-            </div>
-        </div>
-        <div id="chatContent" style="display: none;">
-            <!-- Conteúdo do chat -->
-            <!-- Aqui você pode adicionar campos para mensagens, etc. -->
-        </div>
-        <div id="unavailableMessage" class="unavailable-message" style="display: none;">
-            Temporariamente indisponível. Horário de atendimento: 10h às 19h.
-        </div>
-    </div>
+     
 
      <!-- Seu código JavaScript -->
      <script>
@@ -717,6 +697,28 @@ function login() {
 
 
         </div>
+
+        <!-- Ícone de suporte -->
+     <div class="support-icon" onclick="toggleChat()"></div>
+
+     <!-- Chat box -->
+     <div class="chat-box" id="chatBox">
+        <div id="loginForm">
+            <h3 text-lign>Acesso ao Suporte</h3>
+            <div class="login-form">
+                <input type="text" id="username" placeholder="Usuário">
+                <input type="password" id="password" placeholder="Senha">
+                <button onclick="login()">Acessar</button>
+            </div>
+        </div>
+        <div id="chatContent" style="display: none;">
+            <!-- Conteúdo do chat -->
+            <!-- Aqui você pode adicionar campos para mensagens, etc. -->
+        </div>
+        <div id="unavailableMessage" class="unavailable-message" style="display: none;">
+            Temporariamente indisponível. Horário de atendimento: 10h às 19h.
+        </div>
+    </div>
         
 
     </main>
