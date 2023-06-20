@@ -151,6 +151,17 @@ function login() {
              var chatBox = document.getElementById("chatBox");
              chatBox.style.display = chatBox.style.display === "none" ? "block" : "none";
          }
+
+         const loginForm = document.querySelector('.login-form');
+
+         document.addEventListener('click', function(event) {
+            
+  // Verifica se o elemento clicado não está dentro do formulário
+  if (!loginForm.contains(event.target)) {
+    // Oculta o formulário de login
+    loginForm.style.display = 'none';
+  }
+});
      </script>
 
 
@@ -758,6 +769,8 @@ function login() {
         </div>
     </div>
 
+    
+
 </body>
 
 
@@ -773,9 +786,7 @@ function login() {
 
 
 
-<script>
 
-</script>
 
 
 
